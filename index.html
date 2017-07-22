@@ -2,18 +2,30 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+    <title>Sistema administrativo</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/login.css">
 
-  <script>
-    // You can also require other files to run in this process
-    require('./renderer.js')
-  </script>
+  </head>
+  <body class="indigo darken-2">
+    <div>
+      
+      <section id="index">
+        Loading
+      </section>
+
+    </div>
+
+    <script>
+      import React from "react";
+      import ReactDOM from "react-dom"
+      import LoginViewComponent from "./componentes/loginViewComponent.js"
+
+      ReactDOM.render(
+        <LoginViewComponent />,
+        document.getElementById("index")
+      )
+    </script>
+  </body>
+ 
 </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+	<section id="dash">
+		<h1 >
+			Cargando ...
+		</h1>
+	</section>
+	<script>
+		import React from 'react'
+		import {render} from 'react-dom'
+		import Dashboard from '../dashboard.js'
+		render(
+			<Dashboard />,
+			document.getElementById('dash')
+		)
+	</script>
+</body>
+</html>

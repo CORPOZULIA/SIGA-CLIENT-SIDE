@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "SIGA",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Sistema para la gestion administrativa, desarrollo inicial para la instalación y prueba                piloto dentro de CORPOZULIA como parte del plan de migración de la infraesctructura tecnologica",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -12,11 +12,28 @@
     "quick",
     "start",
     "tutorial",
-    "demo"
+    "demo",
+    "SIGA",
+    "sistema administrativo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Gerencia de informática y sistemas | Giovanny Avila, Julio Chirinos, Ender Bracho",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "~1.6.2"
+    "electron": "~1.6.2",
+    "electron-prebuilt-compile": "^1.6.11"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^3.3.7",
+    "electron-pdf-window": "^1.0.11",
+    "jquery": "^3.2.1",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.0",
+    "react-bootstrap-select": "^0.14.0",
+    "react-dom": "^15.6.1",
+    "react-number-format": "^2.0.1",
+    "react-sidenav": "^2.1.1",
+    "reactjs-localstorage": "0.0.5",
+    "redux": "^3.7.1"
   }
 }

@@ -1,0 +1,82 @@
+body{
+	color: #000;
+	background: #D3D7CF;
+}
+
+input.loginInput {
+    height: 45px;
+    border-radius: 0px;
+    border: none;
+    color: #000;
+    background-color: rgba(48, 63, 159, 0.02);
+    
+}
+
+.panel-default {
+    border-color: #303f9f;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+
+ 
+}
+
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #FF7052;
+    border-color: #FF7052;
+    border-radius: 0px;
+    font-family: Helvetica;
+    font-size: 33px;
+    font-style: bold;
+}
+
+.loginBox{
+    border-top: 10px solid #CC0000;
+    margin-top: 140px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: #fff;
+}
+
+
+
+#target{
+    background-color: #CC0000;
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    max-width: 210px;
+    float: right;
+    padding-left: 20px;
+    margin-top: -20px;
+    text-align: right;
+    padding-right: 15px;
+}
+#target>strong{
+    text-align: left;
+}
+
+#loginForm{
+    margin-top: 17px;
+}
+.btn-exit {
+    color: #fff;
+    background-color: #CC0000;
+    border-radius: 15px;
+}
+
+button.btn-login.btn.btn-primary.btn-block {
+    background-color: #CC0000;
+    font-style: inherit;
+    border-color: #CC0000;
+    border-radius: 0px;
+    height: 64px;
+    font-size: 34px;
+    font-family: Arial;
+    padding-top: 10px;
+}
